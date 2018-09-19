@@ -20,6 +20,12 @@ Clone this repositorie:
 git clone https://github.com/joaothallis/elixir-auto-test.git
 ```
 
+Add `autotest.sh` to you `.gitignore_global`
+
+```bash
+echo -e '\n. autotest.sh' >> ~/.gitignore_global
+```
+
 Move `autotest.sh` to the project directory:
 
 ```bash
@@ -37,6 +43,7 @@ Run `autotest.sh` to start:
 ```bash
 sh autotest.sh
 ```
+
 When changing any file inside the `lib` and `test` directories, it will execute `mix test`.
 
 ## Built With
