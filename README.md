@@ -44,6 +44,12 @@ Run `autotest.sh` to start:
 sh autotest.sh
 ```
 
+To umbrella project:
+
+```bash
+sh autotest.sh --umbrella
+```
+
 When changing any file inside the `lib` and `test` directories, it will execute `mix test`.
 
 ## Built With
