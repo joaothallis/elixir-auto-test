@@ -26,10 +26,10 @@ Add `autotest.sh` to you `.gitignore_global`
 echo -e '\n. autotest.sh' >> ~/.gitignore_global
 ```
 
-Move `autotest.sh` to the project directory:
+Copy `autotest.sh` file to the project directory:
 
 ```bash
-mv elixir-auto-test/autotest.sh your_project 
+cp elixir-auto-test/autotest.sh your_project 
 ```
 
 Enter your project directory:
